@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet'  href='app.css')
+  
+nav 
+  ul 
+   a(href='/Home') Home
+   br
+   a(href='/Contact') Contact_us
+
+
+form
+  label send a message
+  input  
+  table
+      tr
+        td
+          label(for="name") nom:
+        td
+          input(type="text")
+      tr
+        td
+          label(for="firstname") firstname:
+        td
+          input(type="text")
+      tr
+        td
+          label(for="age") age:
+        td
+          input(type="number")
+      tr
+        td
+          label(for="email") email:
+        td
+          input(type="email")
+      tr
+        td
+          label(for="CIN") CIN:
+        td
+          input(type="number")
+      tr
+        td
+          label(for="sexe") sexe:
+        td
+          input(type="radio", name="sexe")
+          label(for="femme") femme
+        td
+          input(type="radio", name="sexe")
+          label(for="homme") homme
+      tr
+        td
+          label(for="paypal") paybox
+        td
+          input(type="number")
+      tr
+        td
+          label(for="design description") text
+      td
+        select
+          option(value="op1") smart home
+          option(value="op2") hi-tech appart
+          option(value="op3") rolling home
+      tr
+        td your own imaginated deseing
+        td
+          input(type="text")
